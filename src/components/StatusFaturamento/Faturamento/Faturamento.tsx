@@ -12,7 +12,7 @@ function Faturamento() {
         </div>
         <div className="status">
           <span className="statusText">Taxa de Entrega</span>
-          <span className="isOpen">R$14,00  </span>
+          <span className="isOpen">R$14,00</span>
         </div>
         <TfiMoney size="3rem" />
       </div>
