@@ -1,0 +1,6 @@
+.conteudoGeral{
+    display: flex;
+    justify-content:start;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}

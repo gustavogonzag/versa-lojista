@@ -1,0 +1,39 @@
+.status{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.statusText{
+    color: rgb(42, 99, 99);
+    font-weight: bold;
+}
+
+.isOpen{
+    color: rgb(56, 56, 56);
+    font-weight:bolder ;
+    font-size: larger;
+}
+
+.total-dia {
+    gap: 15px;
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+    flex-direction: row;
+}
+
+.btnLoja{
+    background-color: rgb(231, 0, 0);
+    width: 100px;
+    height: 30px;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    transition: transform 0.5s ease;
+}
+
+.btnLoja:hover{
+    background-color: #ff5252;
+}
